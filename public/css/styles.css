@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=Major+Mono+Display&family=Oswald:wght@300&family=Poppins&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* header content */
+.navbar{
+    padding: 10px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(4, 25, 71, 0.842);
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.logo a{
+    color: rgb(217, 228, 241);
+    text-decoration: none;
+}
+.navbar .links{
+    display: flex;
+    gap: 10px;
+}
+.navbar .links li{
+    list-style: none;
+    width: 100px;
+    text-align: center;
+}
+.navbar .links li a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.navbar .links li a:hover{
+    color: rgb(51, 141, 153);
+}
+
+/* header content end */
+
+
+.container{
+    min-height: 90vh;
+    height: auto;
+    display: flex;
+}
+.container > div {
+    padding-top: 80px;
+}
+.container .contents{
+    margin-left: 10em;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.container .contents h2{
+    font-size: 40px;
+
+}
+.compose{
+    width: 100%;
+    margin: 10em;    
+} 
+.compose h2{
+    font-size: 50px;
+}
+.compose form{
+    padding: 10px;
+    margin-top: 1em;
+}
+.compose input,
+.compose textarea
+{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+.compose button{
+    width: 200px;
+    padding: 5px;
+    background: rgba(13, 91, 180, 0.685);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* post */
+
+.post{
+    font-size: 20px;
+}
+.post .title::first-letter,
+.post .postContent::first-letter{
+    text-transform: uppercase;
+}
+
+.post .title {    
+    font-size: 35px;
+}
+
+.post a{
+    text-decoration: none;
+    color: rgb(51, 141, 153);
+}
+
+
+/* footer content */
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #434b53;
+    color: white;
+    letter-spacing: 1px;
+}
