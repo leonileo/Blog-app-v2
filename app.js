@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require('lodash')
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/blogDB?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.1', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://HMS-db:dbkal4617@ms-db.qkx6p6u.mongodb.net/blogDB?retryWrites=true&w=majority', {useNewUrlParser: true});
 
 const homeStartingContent =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, cupiditate fugit recusandae nisi praesentium doloremque, voluptatem culpa, rerum sunt pariatur perferendis ea! Excepturi consequatur suscipit quibusdam dolorem nobis nesciunt eaque.";
