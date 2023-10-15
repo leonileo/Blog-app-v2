@@ -33,7 +33,6 @@ app.get("/", (req, res) => {
     blog.forEach(i => {
       blogPosts.push(i)
     })
-    console.log(blogPosts);
     res.render("home", { homeContent: homeStartingContent, post: blogPosts });
   })
 });
